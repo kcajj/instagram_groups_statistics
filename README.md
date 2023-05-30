@@ -4,7 +4,7 @@ get the statistics of the messages and likes of your friends' group on Instagram
 Have you ever wondered who sends the best memes on the Instagram group you have with your friends? No? Well it doesn't matter.
 Here's how to obtain the statistics of the likes exchanged within an Instagram group. Enjoy.
 
-**Disclaimer**: you will work on your private data, do not share your data with anyone and work only on your local machine.
+**!!!Watch out!!!**: you will work on your private data, do not share your data with anyone and work only on your local machine.
 
 **Overview**:
 - Download the [lastest release](https://github.com/kcajj/instagram_groups_statistics/releases) of the script
@@ -28,11 +28,17 @@ Now go in the messages folder and select for the folder having the name of the i
 some instagram user names may contain non-unicode characters and they become unreadable in the output, a quick solution to this problem is to fill the decode function.
 Set the unreadable user name in the if statement and the chosen nickname in the return statement.
 
+### How to read the output
+
+- sent messages: ...
+- given likes: ...
+- likes percentage: ...
+- received likes: ...
+- interactions with other users: ...
+
+A ton of other statistics could be implemented, if you have any idea do not hesitate to let me know.
+
 ### Requirements
 
 - Python (version 3.10.2)
 - [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) (version 4.11.1)
-
-### More
-
-There are tons of statistics that could be implemented, if you have any idea do not hesitate to add them.
